@@ -1,0 +1,100 @@
+h1,h2,h3 {
+  font-family: "Momo Trust Display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-left:10px 
+}
+h1{
+  text-align: center;
+}
+
+body {
+  background-color: #F4F4F4;
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  padding: 0px;
+  margin: 0px;
+}
+.home{
+  background-color:#0C2B4E;
+  color: #fff;
+  padding: 8px;
+  text-decoration: none;
+  text-align: center;
+
+}
+
+.link {
+  padding: 10px;
+  margin: 6px;
+  text-decoration: none;
+  color: #F4F4F4;
+  font-size: 17px;
+}
+
+.link:hover {
+  margin: 3px;
+  font-weight: bold;
+  background-color: #e7e5dc2a;
+  border-bottom: solid 3px #F4F4F4;
+  padding-bottom:1px;
+
+}
+.login {
+    text-align: right;
+
+  .log{
+  background-color: #F4F4F4 ;
+  color: #0C2B4E;
+  text-align: right;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+  padding-right:3px ;
+  padding-left:2px ;
+  border: solid 1px #fff;
+  border-radius: 6px;
+  }
+}
+p{
+  padding-left:8px ;
+  text-indent: 1em;
+}
+.fotos{
+  width: 230px;
+  padding-left:8px ;
+  border-radius: 15px;
+
+}
+
+table{
+  margin-left:8px ;
+  border-radius: 15px;
+  background-color: #0C2B4E ;
+  overflow: hidden; 
+  padding: 10px;
+  text-align: center;
+}
+
+th{
+  border: none;
+  padding: 10px;
+  background-color: #0C2B4E;
+  color:#F4F4F4 ;
+  
+}
+td{
+  background-color: #fff;
+  border: none;  
+  padding: 10px;
+}
+.baixo-esquerda{
+  border-bottom-left-radius: 15px;
+}
+.baixo-direita{
+  border-bottom-right-radius: 15px;
+}
+.img-tabela{
+  width: 100px;
+}
