@@ -6,44 +6,45 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Momo+Trust+Display&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="../assets/image/logo.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../assets/image/logo.ico" 
+    type="image/x-icon">
+    <link rel="stylesheet" href="../assets/css/cadastro.css">
     <title>Sobre</title>
     <title>Cadastro</title>
 </head>
 <body>
-    <a href="login.html">Voltar</a>
-    <h1>Faça seu cadastro</h1>
-    <form action="login.html">
-        <div>
-            <label for="campo-email">E-mail</label>
-            <input type="email" id="campo-email" name="email" required>
-        </div>
-        <div>
-            <label for="campo-senha">Senha</label>
-            <input type="password" id="campo-senha" name="senha" required>
-        </div>
-        <div>
-            <label for="campo-cpf">CPF</label>
-            <input type="text" id="campo-cpf" name="cpf" required>
-        </div>
-        <div>
-            <label for="campo-nome">Nome Completo</label>
-            <input type="text" id="campo-nome" name="nome">
-        </div>
-        <div> 
-            <label for="campo-cargo">Cargo</label>
-            <select name="cargo" id="campo-cargo">
-                <option disabled selected>Selecione seu cargo</option>
-                <option value="Junior">Junior</option>
-                <option value="Pleno">Pleno</option>
-                <option value="Senior">Senior</option>
-            </select>
-        </div>
-        <div>
-            <textarea name="justificativa" id="campo-jus"></textarea>
-        </div>
-        <button type="submit">Cadastrar</button>
-    </form>
+    <div class="form">
+        <form action="login.html">
+            <h1>Faça seu cadastro</h1>
+        
+            <div>
+                <label class="email" for="campo-email">E-mail</label>
+                <input type="email" id="campo-email" name="email" required>
+            </div>
+            <div>
+                <label for="campo-senha">Senha</label>
+                <input type="password" id="campo-senha" name="senha" required>
+            </div>
+            <div>
+                <label class="cpf"for="campo-cpf">CPF</label>
+                <input type="text" id="campo-cpf" name="cpf" required>
+            </div>
+            <div>
+                <label for="campo-nome">Nome Completo</label>
+                <input type="text" id="campo-nome" name="nome">
+            </div>
+            <div>
+                <label for="campo-cargo">Cargo</label>
+                <select name="cargo" id="campo-cargo">
+                    <option disabled selected>Selecione seu cargo</option>
+                    <option value="Junior">Junior</option>
+                    <option value="Pleno">Pleno</option>
+                    <option value="Senior">Senior</option>
+                </select>
+            </div>
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div>
 
     
 </body>
