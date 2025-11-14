@@ -7,40 +7,58 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Momo+Trust+Display&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="../assets/image/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/css/trabalhe.css">
     <title>Trabalhe Conosco</title>
 </head>
 <body>
-    <a href="../index.html">Voltar</a>    
+        <div class="home">
+        <div class="paginas">
+            <a class="pag"href="../index.html">Home</a>
+            <a class="pag" href="../paginas/sobre.html">Sobre</a>
+            <a class="pag" href="../paginas/contatos.html">Contatos</a>
+            <a class="pag" href="../paginas/trabalhe-conosco.html">Trabalhe Conosco</a>
+            <a class="pag" href="../paginas/institucional.html">Institucional</a>
+        </div>
+    </div>   
     
  <h1>Trabalhe Conosco</h1>
-    <p>Quer fazer parte da nossa equipe? Preencha o formulário abaixo e envie suas informações.</p>
+    <div class="pagina">
+        
+        <p>Quer fazer parte da nossa equipe? Preencha o formulário abaixo e envie suas informações.</p>
+        <form action="#" method="post" enctype="multipart/form-data">
+            <div class=vaga">
+                <label for="vaga">Vaga desejada:</label>
+                <select id="vaga" name="vaga" required>
+                    <option value="">Selecione uma vaga</option>
+                    <option value="matematica">Professor de Matemática</option>
+                    <option value="geografia">Professor de Geografia</option>
+                    <option value="portugues">Professor de Português</option>
+                    <option value="historia">Professor de História</option>
+                    <option value="ingles">Professor de Inglês</option>
+                    <option value="educacao_fisica">Professor de Educação Física</option>
+            </div>
+            </select>
+            <div class="anexo">
+                <label for="curriculo">Anexe seu currículo:</label>
+                <input class="doc" type="file" id="curriculo" name="curriculo" accept=".pdf,.doc,.docx">
+            </div>
+            <div class="email">
+                <label for="email">E-mail do candidato:</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="telefone">
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone">
+            </div>
 
-    <form action="#" method="post" enctype="multipart/form-data">
-        <label for="vaga">Vaga desejada:</label><br>
-        <select id="vaga" name="vaga" required>
-            <option value="">Selecione uma vaga</option>
-            <option value="matematica">Professor de Matemática</option>
-            <option value="geografia">Professor de Geografia</option>
-            <option value="portugues">Professor de Português</option>
-            <option value="historia">Professor de História</option>
-            <option value="ingles">Professor de Inglês</option>
-            <option value="educacao_fisica">Professor de Educação Física</option>
-        </select><br><br>
+            <label class="texto" for="mensagem">Fale sobre você:</label>
 
-        <label for="curriculo">Anexe seu currículo:</label><br>
-        <input type="file" id="curriculo" name="curriculo" accept=".pdf,.doc,.docx"><br><br>
-
-        <label for="email">E-mail do candidato:</label><br>
-        <input type="email" id="email" name="email"><br><br>
-
-        <label for="telefone">Telefone:</label><br>
-        <input type="tel" id="telefone" name="telefone"><br><br>
-
-        <label for="mensagem">Fale sobre você:</label><br>
-        <textarea id="mensagem" name="mensagem" rows="5" cols="40"></textarea><br><br>
-
-        <button type="submit">Enviar Candidatura</button>
-    </form>
+            <div class="fale">
+            <textarea id="mensagem" name="mensagem"></textarea>
+            </div>
+            <button class="botao" type="submit">Enviar Candidatura</button>
+        </form>
+    </div>
 </body>
 </html>
 
