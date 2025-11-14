@@ -1,0 +1,44 @@
+body {
+  background-color: #F4F4F4;
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  padding: 0px;
+  margin: 0px;
+
+}
+.home{
+  background-color:#0C2B4E;
+  color: #fff;
+  padding: 8px;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+}
+
+.pag {
+  margin: 4px;
+  padding: 10px;
+  text-decoration: none;
+  color: #F4F4F4;
+  font-size: 17px;
+  text-align: center;
+}
+.pag:hover {
+  margin: 3px;
+  font-weight: bold;
+  background-color: #e7e5dc2a;
+  border-bottom: solid 3px #F4F4F4;
+  padding-bottom:1px;
+
+}
+h1{
+  font-family: "Momo Trust Display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;  
+}
+p{
+    margin-left:8px ;
+    text-indent: 1em;
+}
