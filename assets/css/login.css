@@ -12,10 +12,10 @@ body{
 
 .form{
     padding-bottom: 30px;
-    border: solid black;
+    border: 2px solid #051527;
     border-radius: 15px;
     width: 450px;
-    height: 190px;
+    height: 290px;
     background-color: #0C2B4E;
     color: #fff;
     text-align: center; 
@@ -24,6 +24,7 @@ body{
 }
 button{
     margin-top:20px ;
+    margin-bottom: 15px;
     font-family: "Jost", sans-serif;
     font-optical-sizing: auto;
     font-size: 16px;
@@ -32,6 +33,7 @@ button{
     height: 40px;
     text-align: center;
     border-radius: 15px;
+    border: 1px solid #051527;
     font-weight: bold;
     cursor: pointer;
 

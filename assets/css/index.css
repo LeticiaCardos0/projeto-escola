@@ -15,6 +15,7 @@ body {
   font-style: normal;
   padding: 0px;
   margin: 0px;
+
 }
 .home{
   background-color:#0C2B4E;
@@ -22,18 +23,19 @@ body {
   padding: 8px;
   text-decoration: none;
   text-align: center;
-
+  display: block;
 }
 
-.link {
+.pag {
+  margin: 4px;
   padding: 10px;
-  margin: 6px;
   text-decoration: none;
   color: #F4F4F4;
   font-size: 17px;
+  text-align: center;
 }
 
-.link:hover {
+.pag:hover {
   margin: 3px;
   font-weight: bold;
   background-color: #e7e5dc2a;
@@ -42,8 +44,9 @@ body {
 
 }
 .login {
-    text-align: right;
-
+  text-align: right;
+  display: block;
+  margin-bottom: 13px;
   .log{
   background-color: #F4F4F4 ;
   color: #0C2B4E;
