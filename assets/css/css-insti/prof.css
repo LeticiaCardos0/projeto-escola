@@ -41,7 +41,7 @@ h1{
 }
 
 table{
-  margin-left:18px ;
+  margin-left: 18px ;
   border-radius: 15px;
   background-color: #0C2B4E ;
   overflow: hidden; 
@@ -91,14 +91,21 @@ td{
 .botao:hover{
   background-color: #0c2b4ee7;
 }
-/*cadastro de turmas a partir daqui*/
+/*cadastro de professores a partir daqui*/
 form{
     margin-left: 8px;
 }
-.nome,.carga{
+.nome{
+    margin-left: 8px;
     margin-top: 10px;
 }
-
+.cpf{
+    margin-left: 22px;
+    margin-top: 10px;
+}
+.mat{
+  margin-top: 10px;
+}
 .botao1{
     margin-top:20px ;
     margin-bottom: 15px;

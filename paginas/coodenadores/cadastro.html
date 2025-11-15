@@ -7,36 +7,44 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Momo+Trust+Display&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="../../assets/image/logo.ico" type="image/x-icon">
-    <title>Sobre</title>
+    <link rel="stylesheet" href="../../assets/css/css-insti/coord.css">
     <title>Cadastro de Coordenadores</title>
 </head>
 <body>
-    <a href="../institucional.html">Voltar</a>
+    <div class="home">
+        <div class="paginas">
+            <a class="pag" href="../../index.html" >Home</a>
+            <a class="pag" href="../institucional.html" >Institucional</a>
+            <a class="pag" href="../alunos/index.html" >Alunos</a>
+            <a class="pag" href="../turmas/index.html">Turmas</a>
+            <a class="pag" href="../professores/index.html">Professores</a>
+            <a class="pag" href="../coodenadores/index.html">Coordenadores</a>
+        </div>
+    </div>      
     <h1>Cadastro do Coordenador</h1>
-    <form method="get" action="#">
-        <div></div>
+    <form method="get" action="../coodenadores/index.html">
+        <div class="nome">
             <label for="text">Nome</label>
             <input type="text" id="campo-nome" name="nome"
-            required
             minlength="3">
         </div>
-        <div>
+        <div class="cnpj">
             <label for="text">CNPJ</label>
-            <input type="text" id="campo-cnpj" name="cnpj">
+            <input class="in-cnpj" type="text" id="campo-cnpj" name="cnpj">
         </div>
-        <div>
+        <div class="img">
             <label for="campo-imagem">Imagem</label>
             <input type="file" id="campo-imagem" name="imagem">
         </div>
-        <div>
+        <div class="pix">
             <label for="campo-pix">Chave PIX</label>
             <input type="text" id="campo-pix" name="pix">
         </div>
-        <div>
+        <div class="numero">
             <label for="campo-whatsapp">Whatsapp</label>
             <input type="text" id="campo-whatsapp" name="whatsapp">
         </div>
-        <div>
+        <div class="cargo">
             <label for="campo-cargo">Cargo</label>
             <select name="cargo" id="campo-cargo">
                 <option disabled selected>Selecione seu cargo</option>
@@ -46,7 +54,7 @@
 
             </select>
         </div>
-        <button type="submit">Cadastrar</button>
+        <button class="botao1" type="submit">Cadastrar</button>
 
     </form>
 

@@ -41,7 +41,7 @@ h1{
 }
 
 table{
-  margin-left:18px ;
+  margin-left: 18px ;
   border-radius: 15px;
   background-color: #0C2B4E ;
   overflow: hidden; 
@@ -91,14 +91,27 @@ td{
 .botao:hover{
   background-color: #0c2b4ee7;
 }
-/*cadastro de turmas a partir daqui*/
+/*cadastro de alunos a partir daqui*/
 form{
     margin-left: 8px;
 }
-.nome,.carga{
-    margin-top: 10px;
+.nome,.numero,.img,.pix,.cargo{
+        margin-top: 10px;
 }
 
+.cnpj{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    .in-cnpj{ /*input cnpj*/
+        margin-left: 6px;
+    }
+}
+select{
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
 .botao1{
     margin-top:20px ;
     margin-bottom: 15px;
